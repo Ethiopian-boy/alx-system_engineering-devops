@@ -18,7 +18,6 @@ Standardized lookup methods / query languages.
 Organization of large amounts of data. and 
 handles multiple types of data.
 
-![Simple web stack](C:\Users\muller\Desktop\web\web.jpg
 
 ##### 1-distributed_web_infrastructure
 * For every additional element, why you are adding it
@@ -26,8 +25,6 @@ handles multiple types of data.
 * Is your load-balancer enabling an Active-Active or Active-Passive setup, explain the difference between both
 * How a database Master-Slave cluster works
 * What is the difference between the Master node and the Slave node in regard to the application
-
-![Simple web stack](C:\Users\muller\Desktop\web\photo_2022-08-22_01-37-50.jpg
 
 ##### 2-secured_and_monitored_web_infrastructure
 
