@@ -5,7 +5,7 @@ Whiteboarding tests for design of web application infrastructures
 
 # Description of Files
 #### 0-simple_web_stack
-![simple web infrastructure](https://photos.google.com/photo/AF1QipOP8vyyMKN9QB2YDMC_pmwhwZAvTHS-iVUIER6b)
+![simple web infrastructure](https://imgur.com/OdDwrQs)
 * What is the role of the domain name?
 Human readable form of a location of a server
 
