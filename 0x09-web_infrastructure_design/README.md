@@ -5,7 +5,7 @@ Whiteboarding tests for design of web application infrastructures
 
 # Description of Files
 #### 0-simple_web_stack
-![simple web infrastructure](https://imgur.com/OdDwrQs)
+![simple web infrastructure](https://i.imgur.com/OdDwrQs.jpg)
 * What is the role of the domain name?
 Human readable form of a location of a server
 
@@ -20,7 +20,7 @@ Organization of large amounts of data. and
 handles multiple types of data.
 
 #### 1-distributed_web_infrastructure
-![distributed_web_infrastructure](https://photos.google.com/photo/AF1QipNUZBInZkHjT45SZUH1fx0zhwOgOW3SwS3e7O2F)
+![distributed_web_infrastructure](https://i.imgur.com/0vRgXOj.jpg)
 * For every additional element, why you are adding it
 * What distribution algorithm your load balancer is configured with and how it works
 * Is your load-balancer enabling an Active-Active or Active-Passive setup, explain the difference between both
@@ -28,7 +28,7 @@ handles multiple types of data.
 * What is the difference between the Master node and the Slave node in regard to the application
 
 #### 2-secured_and_monitored_web_infrastructure
-![secured_and_monitored_web_infrastructure](https://photos.google.com/photo/AF1QipMNET9XGmultuFwWO4frCHt4V9LzLC5Q0DK6E6d)
+![secured_and_monitored_web_infrastructure](https://i.imgur.com/MqcKRNn.jpg)
 
 *  Secured and monitored web infrastructure
 * it is secured, serve encrypted traffic, and be monitored.
@@ -36,7 +36,7 @@ handles multiple types of data.
 
 
 #### Scale up
-![Scale up](https://photos.google.com/photo/AF1QipOafUSMKeGLxVU668yXhAsRNjxdCOF9wO6yzvbl)
+![Scale up](https://i.imgur.com/Ihsn1Du.jpg)
 * Application server vs web server
 
 
