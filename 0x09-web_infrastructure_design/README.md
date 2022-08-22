@@ -18,6 +18,7 @@ Standardized lookup methods / query languages.
 Organization of large amounts of data. and 
 handles multiple types of data.
 
+![Simple web stack](./Images/Simple web stack.jpg)
 
 ##### 1-distributed_web_infrastructure
 * For every additional element, why you are adding it
