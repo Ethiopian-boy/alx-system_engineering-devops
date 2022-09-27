@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Configure server with: HAproxy
+# Distributes request using roundrobin; sends traffic to servers: web-01 and web-02
+
+CFG="\\\nlisten appname 0.0.0.0:80\n\tmode http\n\tbalance roundrobin\n\toption httpclose\n\toption forwardfor\n\tserver 16453-web-01 3.235.174.226 check\n\tserver 16453-web-02 44.210.106.28 check\n"
+
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:vbernat/haproxy-2.5
+sudo apt-get update
+sudo apt-get -y install nginx
+sudo apt-get -y install haproxy
+
+# Make sure HAproxy can be managed via an init script
+sudo sed -i "s/ENABLED=0/ENABLED=1/" /etc/default/haproxy
+
+# Backup original config file before attempt modifications
+sudo cp -a /etc/haproxy/haproxy.cfg{,.orig}
+
+# Configure to include roundrobin and two servers
+sudo sed -i "\$a $CFG" /etc/haproxy/haproxy.cfg
+
+sudo service haproxy start
