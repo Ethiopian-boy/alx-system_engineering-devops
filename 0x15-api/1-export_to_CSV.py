@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-""" Export to CSV
-extend your Python script to export data in the CSV format.
+""" extend your Python script to export data in the CSV format.
 """
 import csv
 import requests
@@ -23,9 +22,9 @@ if __name__ = "__main__":
     emp_name = users[0].get('username')
 
     with open('{}.csv'.format(empId), mode='w') as user_file:
-        write_file = csv.writer(user_file, delimiter=',',
+        user_file = csv.writer(user_file, delimiter=',',
                                 quotechar='"', quoting=csv.QUOTE_ALL)
         for task in total_tasks:
-            write_file.writerow(["{}".format(empId), "{}".format(
+            user_file.writerow(["{}".format(empId), "{}".format(
                 emp_name), "{}".format(task.get(
                         'completed')), "{}".format(task.get('title'))])
