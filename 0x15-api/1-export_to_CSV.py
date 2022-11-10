@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 """ extend your Python script to export data in the CSV format.
+Format must be: "USER_ID","USERNAME","TASK_COMPLETED_STATUS","TASK_TITLE"
 """
 import csv
 import requests
 from sys import argv
 
-if __name__ = "__main__":
-    """ Entry point """
+if __name__ == "__main__":
+    """ Export API data """
     empId = argv[1]
     url_todo = 'https://jsonplaceholder.typicode.com/todos'
     url_user = 'https://jsonplaceholder.typicode.com/users'
