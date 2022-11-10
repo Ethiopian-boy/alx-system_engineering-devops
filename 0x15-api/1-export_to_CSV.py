@@ -24,7 +24,7 @@ if __name__ == "__main__":
 
     with open('{}.csv'.format(empId), mode='w') as user_file:
         user_file = csv.writer(user_file, delimiter=',',
-                                quotechar='"', quoting=csv.QUOTE_ALL)
+                               quotechar='"', quoting=csv.QUOTE_ALL)
         for task in total_tasks:
             user_file.writerow(["{}".format(empId), "{}".format(
                 emp_name), "{}".format(task.get(
